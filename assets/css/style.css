@@ -51,3 +51,88 @@ body{
     }
 
 }
+/* intoduction start */
+ 
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 112.5px;
+    padding-right: 112.5px;
+
+}
+.introduction a{
+    padding-left: 20px;
+}
+.introduction button{
+    width: 151px;
+    height: 58px;
+    background-color: var(--qara-renk);
+    color: var(--ag-renk)
+}
+.introduction .intro-left-side h1 {
+font-size: 4.5rem;
+font-weight: 700;
+}
+
+.introduction .intro-left-side h1 span{
+    color: #FF8A56;
+    letter-spacing: 2px;
+    line-height: 82.5px;
+
+}
+
+.intro-left-side{
+    padding-top: 117px;
+}
+.intro-left-side p{
+    color:#666666;
+
+    margin-top: 34px;
+    margin-bottom: 38px;
+}
+
+.intro-right-side{
+    padding-top: 70px;
+}
+.intro-right-side img{
+    width: 100%;
+}
+
+
+@media(max-width:1180px) {
+    .introduction {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@media(max-width:1080px) {
+    .introduction {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+ @media(max-width:992px) {
+    .introduction .intro-left-side h1 {
+        font-size: 42px;
+        text-align: center;
+
+    }
+ }
+@media(max-width:768px) {
+    .introduction {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .intro-left-side {
+        padding-top: 80px;
+    }
+}
+@media(max-width:320px){
+    .introduction .intro-left-side h1 {
+        text-align: center;
+    }
+}
+
+
+/* /* introduction end  */
