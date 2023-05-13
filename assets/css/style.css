@@ -173,3 +173,76 @@ font-weight: 700;
 
 /* odd(tek) even(cut) */
 /* PARTNYOR SECTION END */
+
+/* services-section star */
+
+.services-section{
+    padding-left: 171px;
+    padding-right: 171px;
+    padding-top: 76.27px;
+}
+
+.services-section h6,
+.services-section h1 {
+    text-align: center;
+}
+
+.services-section h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    
+   
+
+
+color: #FF5E69;
+}
+
+.services-section h1 {
+    font-size: 54px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.services-section ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+.services-cards-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 117.95px;
+    /* valideyin elemente verilir */
+    flex-wrap: wrap ;
+    
+}
+.card{
+    min-width: 252px;
+    width: 252px;
+}
+.services-cards-section .card h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 39px ;
+}
+.services-cards-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #666666;
+    padding-top: 22px;
+}
+.services-cards-section .card li {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+@media(max-width:768px){
+    .services-section{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
