@@ -323,6 +323,7 @@ color: #FF5E69;
 .projects-cards-section .card .card__bottom{
     padding-left: 16px;
     padding-top: 16px;
+    background-color: #fff;
     
 }
 
@@ -341,9 +342,70 @@ color: #FF5E69;
     .projects-cards-section .card:not(:first-child){
         display: none;
 }
-
-
-
-
+}
 
 /* PROJECT SECTION END */
+
+/* LATEST BLOG SECTION */
+
+.latest-blog-section {
+    display: flex;
+    background-color: #222;
+    color: #fff;
+    padding: 100px 113px;
+    margin-top: -105px;
+}
+.latest-blog-section .left-side h3{
+    padding-top: 118px;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFA84B;
+}
+.latest-blog-section .left-side h1 {
+    font-weight: 700;
+    padding-bottom: 32px;
+    padding-top: 20px;
+    font-size: 54px;
+    letter-spacing: 1px;
+}
+.latest-blog-section .left-side a {
+    
+}
+
+
+
+.latest-blog-section a {
+    color: #fff;
+}
+
+.latest-blog-section .left-side {
+    /* width: 40%; */
+    flex-basis: 40%;
+}
+.latest-blog-section .right-side{
+    /* width: 60%; */
+    flex: 1;
+    padding-top: 159px;
+}
+.latest-blog-section .right-side h2 {
+    padding-top: 26px;
+    padding-bottom: 39px;
+    font-weight: 700;
+    font-size: 28px;
+    
+}
+.latest-blog-section .right-side  img {
+  
+ 
+
+}
+
+.blog{
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.7);
+    padding: 40px 0;
+}
+.metadata{
+    color: rgba(255, 255, 255, 0.7);
+}
