@@ -346,7 +346,7 @@ color: #FF5E69;
 
 /* PROJECT SECTION END */
 
-/* LATEST BLOG SECTION */
+/* LATEST BLOG SECTION Start*/
 
 .latest-blog-section {
     display: flex;
@@ -409,3 +409,55 @@ color: #FF5E69;
 .metadata{
     color: rgba(255, 255, 255, 0.7);
 }
+/* LATEST BLOG SECTION End */
+
+/* PRODUCT SECTION START */
+.product-section h6 {
+    font-weight: 700;
+    padding-top: 156px;
+    padding-left: 113px;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FF5E69;
+}
+.product-section .view-all-product{
+    display: flex;
+    justify-content: space-between;
+}
+.product-section .view-all-product h2{
+    font-weight: 700;
+    padding-left: 113px;
+    padding-top: 15px;
+    font-size: 54px;
+    letter-spacing: 1px;
+}
+.product-section .view-all-product p{
+    font-weight: 400;
+    font-size: 22px;
+    padding-right: 113px;
+    line-height: 40px;
+    color: #666666;
+}
+.product-image-section{
+    display: flex;
+    padding-top: 115px;
+    padding-left: 71px;
+    
+}
+.product-image-section .image-sol img{
+    padding-right: 16px;
+}
+.product-image-section .image-orta img {
+    padding-right: 16px;
+}
+
+.product-image-section .image-sag img {
+    padding-bottom: 13px;
+}
+
+
+
+
+/* PRODUCT SECTION END */
